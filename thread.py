@@ -1,4 +1,4 @@
-from threading import Thread
+from threading import Thread, lock
 
 def my_function1():
   for i in range(10000):
